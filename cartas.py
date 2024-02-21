@@ -48,8 +48,6 @@ class Mazo:
     def mostrar_cartas(self, todas = False):
         if todas:
             print(self.cartas[0].mostrar())
-        else:
-            print(" de *")
         for c in self.cartas[1:]:
             print(c.mostrar())
 
